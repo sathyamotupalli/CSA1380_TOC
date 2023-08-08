@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int a,n,m;
+	printf("enter the number= ");
+	scanf("%d",&a);
+	if(n>99)
+	{
+	n=a%10;
+	while(a>=10)
+	{
+		a=a/10;
+	}
+	m=a;
+	if(n==m)
+	{
+		printf("not accepted");
+	}
+	else
+	{
+		printf("accepted");
+	}
+}
+else
+{
+	printf("invalid input");
+}
+}
