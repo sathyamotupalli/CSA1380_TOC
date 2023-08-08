@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char a[10];
+	int i,n;
+	printf("enter the string= ");
+	scanf("%s",&a);
+	n=strlen(a);
+	if(n>2){
+	if(a[0]==a[n-1])
+	{
+		printf("accepted");
+		
+	}
+	else
+	{
+		printf("not accepted");
+	}}
+	else
+	{
+		printf("invalid input");
+	}
+}
